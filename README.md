@@ -1,40 +1,35 @@
 # ImaCmin-ML
 ## Machine Learning Model for Imatinib Plasma Trough Concentration Prediction
 
----
 
 ## 📌 Project Introduction
 This repository provides the **official implementation code** for the research paper:
+
 **A machine learning model for predicting plasma concentration of imatinib in patients with gastrointestinal stromal tumor based on real-world data**
 
 We aim to build a high-accuracy ML model to predict imatinib trough concentration (Cmin) in GIST patients, supporting clinical personalized dosing.
 
----
 
 ## 🖼 Model Architecture
 ![Model Architecture](flowchart.png)
 
----
 
 ## 🎯 Objective
 Imatinib (IM) is the first-line treatment for gastrointestinal stromal tumors (GIST), and its efficacy and toxicity are closely related to plasma trough concentration (Cmin).
 This study develops a machine learning model to predict IM Cmin using real-world data to support clinical personalized medication decisions.
 
----
 
 ## 🧬 What This Code Does ✨
 - **Feature selection** using univariate analysis and sequential forward selection (SFS) 🔍
 - **Missing value imputation** based on random forest 🌲
 - **10 machine learning models** training, comparison, and evaluation 🤖
 
----
 
 ## 📂 Code Structure
 - `feature_selection.py` → Feature engineering and variable selection codes
 - `rf_imputation.py` → Random forest-based missing value imputation
 - `model_*.py` → Training and evaluation codes for all machine learning models
 
----
 
 ## 🔬 Key Results
 - 13 clinical variables selected for prediction
@@ -43,7 +38,6 @@ This study develops a machine learning model to predict IM Cmin using real-world
 - IM dose, RBC, HCT, TBIL, ALB were the most important features
 - Validated in 425 training patients and 61 external patients
 
----
 
 ## 📋 Workflow
 1. Data preprocessing & missing value imputation
@@ -52,7 +46,6 @@ This study develops a machine learning model to predict IM Cmin using real-world
 4. Model comparison & optimal model selection
 5. SHAP interpretation & external validation
 
----
 
 ## 💡 Highlights
 ✅ Real-world clinical data driven 
@@ -60,7 +53,6 @@ This study develops a machine learning model to predict IM Cmin using real-world
 ✅ Stable and interpretable ML model 
 ✅ Clinically applicable for personalized dosing 
 
----
 
 ## 📧 Citation
 If you use this code in your research, please cite our paper:
