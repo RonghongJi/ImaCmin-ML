@@ -3,9 +3,9 @@
 
 
 ## 📌 Project Introduction
-This repository provides the **official implementation code** for the research paper:
+This repository provides the official implementation code for the research paper:
 
-**A machine learning model for predicting plasma concentration of imatinib in patients with gastrointestinal stromal tumor based on real-world data**
+_**A machine learning model for predicting plasma concentration of imatinib in patients with gastrointestinal stromal tumor based on real-world data**_
 
 We aim to build a high-accuracy ML model to predict imatinib trough concentration (Cmin) in GIST patients, supporting clinical personalized dosing.
 
