@@ -47,13 +47,6 @@ This study develops a machine learning model to predict IM Cmin using real-world
 5. SHAP interpretation & external validation
 
 
-## 💡 Highlights
-✅ Real-world clinical data driven 
-✅ High prediction accuracy 
-✅ Stable and interpretable ML model 
-✅ Clinically applicable for personalized dosing 
-
-
 ## 📧 Citation
 If you use this code in your research, please cite our paper:
 > A machine learning model for predicting plasma concentration of imatinib in patients with gastrointestinal stromal tumor based on real-world data
