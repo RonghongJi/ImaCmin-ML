@@ -1,6 +1,10 @@
 # ImaCmin-ML
 
 
+👋 Welcome & Thanks for your interest!
+We open-source the original analysis code of our study for reference and further research.
+
+
 ## 📌 Project Introduction
 This repository provides the official implementation code for the research paper:
 
