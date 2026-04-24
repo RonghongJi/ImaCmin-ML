@@ -1,5 +1,4 @@
 # ImaCmin-ML
-## Machine Learning Model for Imatinib Plasma Trough Concentration Prediction
 
 
 ## 📌 Project Introduction
